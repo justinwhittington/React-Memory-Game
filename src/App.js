@@ -10,45 +10,57 @@ let clicked = [];
 class App extends Component {
   state = {
     score: 0,
+    hiscore: 0,
     friends: friends
+  };
+
+  componentDidMount = () => {
+    this.shuffle();
   };
 
   handleClick = name => {
     let n = clicked.indexOf(name);
-    console.log(name);
 
-    console.log(n);
-
-    if (n === -1) {
+    if (n === -1 && this.state.score + 1 > this.state.hiscore) {
       clicked.push(name);
       console.log(this.state.score);
       this.setState({ score: this.state.score + 1 });
+      this.setState({hiscore: this.state.score + 1});
+      console.log(this.state.score);
+      this.shuffle();
+    } else if (n === -1) {
+      clicked.push(name);
+      console.log(this.state.score);
+      this.setState({ score: this.state.score + 1 });
+      console.log(this.state.score);
+
       this.shuffle();
     } else {
-      console.log("duplicate");
       this.setState({ score: 0 });
       clicked = [];
       this.shuffle();
     }
   };
 
+ 
+
   shuffle = () => {
-    console.log("shuffle");
-    let counter = clicked.length;
+    let counter = friends.length;
     while (counter > 0) {
       let index = Math.floor(Math.random() * counter);
 
       counter--;
-      let temp = clicked[counter];
-      clicked[counter] = clicked[index];
-      clicked[index] = temp;
+      let temp = friends[counter];
+      friends[counter] = friends[index];
+      friends[index] = temp;
     }
-    console.log(clicked);
 
-    
+    console.log(this.state.score);
   };
 
   render() {
+    if (this.state.score === 0) {
+    }
     return (
       <Wrapper>
         <Title>Friends List</Title>
@@ -56,6 +68,7 @@ class App extends Component {
           id={this.state.score}
           value={this.state.score}
           score={this.state.score}
+          hiscore={this.state.hiscore}
         />
         {this.state.friends.map(friend => (
           <Card
