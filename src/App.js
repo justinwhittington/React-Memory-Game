@@ -63,7 +63,7 @@ class App extends Component {
     }
     return (
       <Wrapper>
-        <Title>Friends List</Title>
+        <Title>Test Your Memory</Title>
         <ScoreCard
           id={this.state.score}
           value={this.state.score}
