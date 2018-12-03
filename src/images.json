@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Paper Mario",
+    "image": "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fvgboxart.com%2Fresources%2Frender%2F5713_paper-mario-prev.png&f=1"
+  },
+  {
+    "id": 2,
+    "name": "Mega Man",
+    "image": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.models-resource.com%2Fresources%2Fbig_icons%2F5%2F4511.png&f=1"
+  },
+  {
+    "id": 3,
+    "name": "Banjo and Kazooie",
+    "image": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fbanjokazooie%2Fimages%2Ff%2Ff7%2FBanjoKazooieTooie1.png%2Frevision%2Flatest%3Fcb%3D20120814174850&f=1"
+  },
+  {
+    "id": 4,
+    "name": "Pikachu",
+    "image": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2F40.media.tumblr.com%2Fd26a90e2d52b63c29cad631dc2e4c18b%2Ftumblr_no5mjubipQ1tmftjeo9_500.png&f=1"
+  },
+  {
+    "id": 5,
+    "name": "Super Mario World",
+    "image": "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fpixelartmaker.com%2Fart%2F3422ff40cad61f2.png&f=1"
+  },
+  {
+    "id": 6,
+    "name": "Ogre Battle 2",
+    "image": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.spriters-resource.com%2Fresources%2Fsheet_icons%2F55%2F58334.png&f=1"
+  },
+  {
+    "id": 7,
+    "name": "Samus Aran",
+    "image": "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fsupermariobroscrossover.com%2Fdata%2Fxengallery%2F25%2F25706-e338f2fa1a41145896f0f6a1d18a519a.jpg%3F1422859243&f=1"
+    
+  },
+  {
+    "id": 8,
+    "name": "Gordon Freeman",
+    "image": "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-MRpymUeGpX4%2FT9J6E-YoqfI%2FAAAAAAAAApw%2FbIrx0ZJEqoU%2Fs1600%2FHalf-Life.png&f=1"
+  },
+  {
+    "id": 9,
+    "name": "Kirby",
+    "image": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.giantbomb.com%2Fuploads%2Foriginal%2F0%2F1279%2F2141239-rick3.png&f=1"
+    
+  },
+  {
+    "id": 10,
+    "name": "Fox McCloud",
+    "image": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fnew-fantendo%2Fimages%2Fa%2Fa8%2FFox_-_Star_Fox_64.png%2Frevision%2Flatest%3Fcb%3D20170421234708%26path-prefix%3Des&f=1"
+  },
+  {
+    "id": 11,
+    "name": "Isaac",
+    "image": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fgoldensunwiki.net%2Fw%2Fimages%2F8%2F8a%2FGs-isaac-png.png&f=1"
+ 
+  },
+  {
+    "id": 12,
+    "name": "Ness",
+    "image": "https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fggtriple.files.wordpress.com%2F2013%2F07%2Fearthbound-mother-nintendo-wii-u-concept-pixel-art-2.png%3Fw%3D300&f=1"
+   
+  },
+  {
+    "id": 13,
+    "name": "Link",
+    "image": "http://operationrainfall.com/wp-content/uploads/2014/06/zelda-young-link.png",
+    "occupation": "Hero of Time",
+    "location": "Termina"
+  },
+  {
+    "id": 14,
+    "name": "Chrono Trigger",
+    "image": "https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fvignette2.wikia.nocookie.net%2Fvsbattles%2Fimages%2Fe%2Fe4%2FFrog_transparent.png%2Frevision%2Flatest%2Fscale-to-width-down%2F400%3Fcb%3D20170109175100&f=1"
+  },
+  {
+    "id": 15,
+    "name": "Donkey Kong",
+    "image": "https://static.tumblr.com/89654553323c1a126dd4de26cca29073/fpjvzel/kApmtcqbn/tumblr_static_dk_s.png_original"
+  }
+]

@@ -3,15 +3,16 @@ import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import ScoreCard from "./components/ScoreCard";
-import friends from "./friends.json";
+import images from "./images.json";
 import "./App.css";
 let clicked = [];
+
 
 class App extends Component {
   state = {
     score: 0,
     hiscore: 0,
-    friends: friends
+    images: images
   };
 
   componentDidMount = () => {
@@ -45,14 +46,14 @@ class App extends Component {
  
 
   shuffle = () => {
-    let counter = friends.length;
+    let counter = images.length;
     while (counter > 0) {
       let index = Math.floor(Math.random() * counter);
 
       counter--;
-      let temp = friends[counter];
-      friends[counter] = friends[index];
-      friends[index] = temp;
+      let temp = images[counter];
+      images[counter] = images[index];
+      images[index] = temp;
     }
 
     console.log(this.state.score);
@@ -63,14 +64,14 @@ class App extends Component {
     }
     return (
       <Wrapper>
-        <Title>Test Your Memory</Title>
+        <Title ></Title>
         <ScoreCard
           id={this.state.score}
           value={this.state.score}
           score={this.state.score}
           hiscore={this.state.hiscore}
         />
-        {this.state.friends.map(friend => (
+        {this.state.images.map(friend => (
           <Card
             removeFriend={this.removeFriend}
             id={friend.id}

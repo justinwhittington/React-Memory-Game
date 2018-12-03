@@ -2,5 +2,11 @@
   width: 100%;
   text-align: center;
   margin-bottom: 50px;
- 
+  font-family: ArcadeClassic;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+  font-family: ArcadeClassic;
 }
