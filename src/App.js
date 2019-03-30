@@ -13,7 +13,7 @@ class App extends Component {
     score: 0,
     hiscore: 0,
     images: images
-  };
+  }; 
 
   componentDidMount = () => {
     this.shuffle();
@@ -63,7 +63,7 @@ class App extends Component {
     if (this.state.score === 0) {
     }
     return (
-      <Wrapper>
+      <Wrapper> 
         <Title ></Title>
         <ScoreCard
           id={this.state.score}
