@@ -12,7 +12,7 @@
   .card > .img-container {
     height: 100%;
     
-    overflow: hidden;
+    overflow: hidden; 
     
     background:#6CADDC;
   }
